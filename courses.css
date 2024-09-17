@@ -1,0 +1,40 @@
+﻿.search-container {
+    gap: 20px;
+    display: flex;
+}
+
+
+.custom-gap {
+    gap: 20px;
+}
+
+.icon-span {
+    margin-right: 0px !important;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+.total-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-not-found {
+    margin: 0 auto;
+}
+
+.scrollable-m {
+    max-width: 200px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scrollable-l {
+    max-width: 300px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
