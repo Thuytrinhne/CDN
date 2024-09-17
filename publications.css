@@ -1,0 +1,64 @@
+﻿.publication-container {
+    BACKGROUND-COLOR: #e5e5e5;
+    BORDER: #777373 1PX SOLID;
+}
+.edit-icon.edit-link {
+    color: red;
+}
+
+.custom-size {
+    font-size: 18px !important;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+.custom-pointer {
+    cursor: pointer;
+    color: red;
+    font-size: 22px;
+}
+
+.hover-row {
+    position: relative;
+}
+
+    .hover-row .edit-icon {
+        display: none;
+    }
+
+    .hover-row:hover .edit-icon {
+        display: inline-block;
+    }
+
+    .hover-row .text-muted {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+
+
+
+.clickable-row {
+    cursor: pointer;
+}
+
+.total-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-not-found {
+    margin: 0 auto;
+}
+
+.icon-span {
+    margin-right: 0px !important;
+}
+
+.hover-row:hover .edit-icon.d-none.d-sm-block {
+    display: block;
+}
